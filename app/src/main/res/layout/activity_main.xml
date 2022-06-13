@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/f_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:hint="name"/>
+
+    <EditText
+        android:id="@+id/f_price"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/f_name"
+        android:layout_marginBottom="5dp"
+        android:hint="price per kg"/>
+
+    <EditText
+        android:id="@+id/f_quantity"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/f_price"
+        android:layout_marginBottom="30dp"
+        android:hint="quantity per week"/>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:text="save"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/f_quantity"/>
+
+    <Button
+        android:id="@+id/retrieve_btn"
+        android:text="View"
+        android:textColor="@color/black"
+        android:layout_width="300dp"
+        android:backgroundTint="@color/teal_200"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save_btn"/>
+
+
+
+</RelativeLayout>

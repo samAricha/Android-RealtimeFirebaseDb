@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "471603209474",
+    "project_id": "mykuku-47262",
+    "storage_bucket": "mykuku-47262.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471603209474:android:6a43fe179a80991046ce1b",
+        "android_client_info": {
+          "package_name": "teka.mobile.RealtimeFirebaseDb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471603209474-bd4tp5645q6j3n4sug22hn9kie7pbs1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5lsk5vObbPmufum4OBRkh06r0y4Ve9HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471603209474-bd4tp5645q6j3n4sug22hn9kie7pbs1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
